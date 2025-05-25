@@ -1,0 +1,34 @@
+message_id,message_content,channel,target_label,routing_info,processing_cost,chroma_vector_id
+1,"Charlie Davis : I visited the hospital on April 5th for an emergency and was told my insurance was inactive.
+This is shocking because Ive been paying my premiums on time every month.
+Now Im being billed $2,300 out of pocket. I need this resolved ASAP  please confirm my coverage status and correct the hospital records.",call,"{
+  ""category"": ""claim_denial"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.9,
+  ""key_information"": [
+    ""Visited the hospital on April 5th for an emergency"",
+    ""Insurance was reported as inactive"",
+    ""Customer has been paying premiums on time"",
+    ""Billed $2,300 out of pocket"",
+    ""Needs coverage status confirmed and hospital records corrected""
+  ],
+  ""suggested_action"": ""Verify the customer's payment history and policy status, then contact the hospital to correct the insurance records.""
+}",📬 Routed to: Claims Department ⏱ Urgency Level: Escalation Team,0.00019874999999999998,a278663e-a81a-44e0-8286-c0d01bc8c7ff
+2,"Diana Miller: My claim for a knee MRI done on March 20th was denied stating it wasn't medically necessary.
+However, it was prescribed by my orthopedic specialist. I need a detailed explanation for the denial and how I can appeal this decision.",chat,"{
+  ""category"": ""claim_denial"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Claim for knee MRI denied"",
+    ""MRI prescribed by orthopedic specialist"",
+    ""Date of MRI: March 20th"",
+    ""Policyholder: Edward Wilson"",
+    ""Policy Number: CI1122334455"",
+    ""Policy Type: Critical Illness Insurance"",
+    ""Insurance Provider: SafeCare Health Insurance Co.""
+  ],
+  ""suggested_action"": ""Review the claim denial reason, verify medical necessity with the specialist's prescription, and provide detailed appeal instructions to the customer.""
+}",📬 Routed to: Claims Department ⏱ Urgency Level: Priority Queue,0.0002106,dabaf013-2197-45d5-8e38-ef50868b368f

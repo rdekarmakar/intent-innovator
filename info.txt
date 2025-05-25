@@ -1,0 +1,106 @@
+
+Types of Healthe Insurance
+	### **1. Individual Health Insurance**
+	### **2. Family Floater Health Insurance**
+	### **3. Group Health Insurance**
+	### **4. Senior Citizen Health Insurance**
+	### **5. Critical Illness Insurance**
+	### **6. Top-Up and Super Top-Up Plans**
+	### **7. Maternity Health Insurance**
+	### **8. Personal Accident Insurance**
+	### **9. Disease-Specific Insurance**
+	### **10. Mediclaim Policy**
+	### **11. Unit Linked Health Insurance Plans (ULHIPs)**
+
+Bob Johnson
+Charlie Lee
+Diana King
+Edward Brown
+Fiona White
+George Black
+
+
+-- Customer Intents ----
+
+policy_inquiry
+claim_status
+policy_purchase
+policy_renewal
+billing_payments
+network_providers
+idcard_request
+contact_update
+pre_authorization
+appeals_grievances
+dependent_coverage
+technical_support
+coverage_verification
+plan_cancellation
+reimbursement_request
+wellness_program_inquiry
+document_submission
+accessibility_support
+coverage_inquiry
+eligibility_verification
+
+
+
+policy_inquiry
+claim_status
+billing_payments
+policy_update
+coverage_inquiry
+provider_search
+pre_authorization
+idcard_request
+technical_support
+policy_cancellation
+dependent_coverage
+
+
+sample_queries = {
+    "policy_inquiry": (
+        "Hi, I recently received my insurance documents but I’m not quite clear on what exactly my policy covers. "
+			Could you please provide me with a detailed explanation of the benefits and limitations of my current insurance policy?"
+    ),
+    "claim_status": (
+        "Hello, I submitted a claim for a hospital visit two weeks ago, but I haven’t received any updates yet. "
+         Can you check the status of my claim and let me know if any additional information is required from my side?"
+    ),
+    "billing_payments": (
+        "I was reviewing my recent credit card statement and saw a charge from your company that I don’t recognize. "
+         Could you please provide details about this billing payment and confirm if it’s related to my insurance policy?"
+    ),
+    "policy_update": (
+        "I’ve recently moved to a new address and changed my phone number. "
+         Can you help me update my contact details on my existing insurance policy to ensure I receive all future correspondence?"
+    ),
+    "coverage_inquiry": (
+        "I’m considering adding dental and vision services to my current insurance plan. "
+         Could you let me know if these services are already included in my coverage or if I need to make any changes?"
+    ),
+    "provider_search": (
+        "I’m planning to visit a specialist soon and want to make sure they are in-network to avoid extra costs. "
+         Can you help me find a list of in-network providers near my area?"
+    ),
+    "pre_authorization": (
+        "My doctor recommended a surgical procedure that requires pre-authorization from the insurance company. "
+         Could you guide me through the pre-authorization process and what documents I need to submit?"
+    ),
+    "idcard_request": (
+        "Unfortunately, I misplaced my insurance ID card and need a replacement as soon as possible. "
+         Can you assist me with the process to request a new physical or digital ID card?"
+    ),
+    "technical_support": (
+        "I’ve been trying to log in to my online insurance account for the past few days but keep getting error messages. "
+         Could you help troubleshoot the issue or reset my password if necessary?"
+    ),
+    "policy_cancellation": (
+        "Due to some personal reasons, I’ve decided to cancel my insurance policy starting from next month. "
+         Could you please explain the cancellation process, any penalties, and how I will receive the final statement?"
+    ),
+    "dependent_coverage": (
+        "I’m not sure if my spouse is currently covered under my insurance plan. "
+         Could you verify their coverage status and let me know what steps I need to take to add or update dependent information?"
+    )
+}

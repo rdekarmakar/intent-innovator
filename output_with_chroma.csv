@@ -1,0 +1,250 @@
+message_id,message_content,channel,target_label,routing_info,processing_cost,chroma_vector_id
+1,"Charlie Davis : I visited the hospital on April 5th for an emergency and was told my insurance was inactive.
+This is shocking because Ive been paying my premiums on time every month.
+Now Im being billed $2,300 out of pocket. I need this resolved ASAP  please confirm my coverage status and correct the hospital records.",call,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""critical"",
+  ""sentiment"": ""angry"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: Not provided"",
+    ""Visit Date: April 5th"",
+    ""Out-of-pocket bill: $2,300""
+  ],
+  ""suggested_action"": ""Verify the policy status and payment history immediately to resolve the coverage issue and correct the hospital records.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Immediate Attention Desk,0.00017235,93b886da-d383-406a-a8cb-9add78cd8abb
+2,"Diana Miller: My claim for a knee MRI done on March 20th was denied stating it wasn't medically necessary.
+However, it was prescribed by my orthopedic specialist. I need a detailed explanation for the denial and how I can appeal this decision.",chat,"{
+  ""category"": ""claim_denial"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.9,
+  ""key_information"": [
+    ""Claim for knee MRI denied"",
+    ""MRI prescribed by orthopedic specialist"",
+    ""Date of MRI: March 20th""
+  ],
+  ""suggested_action"": ""Review the claim denial, verify medical necessity criteria, and provide detailed explanation. Guide Diana through the appeal process.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Priority Queue,0.0001779,1d6cfeb2-de8b-4fdf-9c1e-f112cbc9af65
+3,"Edward Wilson : I was charged twice for the same doctor visit on February 10th. The bill shows two identical charges, but I only had one appointment.
+Please correct this billing error and refund the duplicate charge immediately.",chat,"{
+  ""category"": ""billing_payments"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: HI123456789"",
+    ""Date of Issue: May 24, 2025"",
+    ""Policy Start Date: June 01, 2025"",
+    ""Policy End Date: May 31, 2026"",
+    ""Insurance Provider: SafeCare Health Insurance Co."",
+    ""Plan Name: SafeCare Individual Health Plus"",
+    ""Type of Coverage: Individual Health Insurance"",
+    ""Sum Insured: $75,000 per year"",
+    ""Premium Amount: $950 annually or $80/month"",
+    ""Coverage Includes: Inpatient hospitalization, pre and post hospitalization expenses, day care procedures, emergency ambulance up to $400 per hospitalization, COVID-19 treatment as per government guidelines, preventive health checkup"",
+    ""Exclusions: Self-inflicted injuries, substance abuse treatment, cosmetic treatments unless medically necessary, maternity, childbirth, fertility treatments, preexisting conditions (covered after 24 months), non-allopathic treatments unless specified"",
+    ""Claim Process: Notify within 24 hours for emergency hospitalization or 48 hours before planned admission, submit original bills, prescriptions, diagnostic reports, and discharge summary, claims settled within 10 working days from submission of complete documents, cashless facility available at network hospitals using SafeCare Health Card"",
+    ""Contact Information: Customer Support: 1-800-555-CARE (247), Email: claims@safecarehealth.com, Website: www.safecarehealth.com""
+  ],
+  ""suggested_action"": ""Review the billing details for the duplicate charge on February 10th and process a refund immediately.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Escalation Team,0.00033089999999999997,500a9052-9f28-4171-bd3a-c2d3397da77e
+4,Charlie Davis :Im scheduled to undergo a minor outpatient procedure next month and would like to confirm whether this is covered under my current Group Health Insurance Plan.,web,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""neutral"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: GHI334455667"",
+    ""Procedure Type: Minor outpatient procedure"",
+    ""Relevant Policy Details: Coverage includes day care treatments for procedures not requiring 24-hour hospitalization.""
+  ],
+  ""suggested_action"": ""Review Charlie's policy and confirm coverage for the specific outpatient procedure. Check if any pre-authorization is required.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Priority Queue,0.00018825,a2bf9611-6672-46b3-bb49-813db2b5e8aa
+5,"Sarah Jhonson: I added my newborn to my policy in January, but the pediatricians office says theres no record of coverage.
+Ive submitted the documents twice already. Can someone please verify the status and ensure my child is covered?",chat,"{
+  ""category"": ""dependent_coverage"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""neutral"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Customer Name: Sarah Jhonson"",
+    ""Newborn added to policy in January"",
+    ""Documents submitted twice"",
+    ""Pediatrician's office reports no coverage""
+  ],
+  ""suggested_action"": ""Verify the status of the dependent coverage and ensure the newborn is covered under the policy.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Escalation Team,0.0001794,39ff8fc6-2b07-4cc5-828c-f9451cb91b30
+6,"John Doe : Hi Team,
+
+I wanted to check if I'm eligible for the free annual health check-up mentioned in the policy.
+
+Could you please let me know how to book it and if theres a specific hospital or clinic I need to visit?
+
+Thanks in advance for your help!
+
+Best,
+John Doe",email,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""low"",
+  ""sentiment"": ""neutral"",
+  ""confidence"": 0.85,
+  ""key_information"": [
+    ""Policy Number: Not explicitly provided, but based on context, it may be similar to HI123456789"",
+    ""Eligibility for free annual health check-up"",
+    ""Process for booking the check-up"",
+    ""Specific hospitals or clinics for the check-up""
+  ],
+  ""suggested_action"": ""Verify policy details, confirm eligibility, and provide booking instructions and list of network providers.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Standard Queue,0.00018495,220e29b3-1655-49af-acd3-ae3c0fa9098e
+7,"John Doe: Hi Team,
+I have not received any response to my previous email regarding the free annual health check-up mentioned in the policy.
+I am really pissed off with the lack of communication from your side.
+Can someone please get back to me with the details asap.
+
+Thanks,
+John Doe",email,"{
+  ""category"": ""policy_inquiry"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""angry"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Customer Name: John Doe"",
+    ""Inquiry about free annual health check-up mentioned in the policy"",
+    ""Follow-up on a previous email without response""
+  ],
+  ""suggested_action"": ""Respond promptly, apologize for the delay, and provide details on the free annual health check-up.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Priority Queue,0.00017309999999999998,a10e65aa-1ecd-4a1f-ac9c-a1bfa3e6c2c0
+8,"George: Dear SafeCare Team,
+
+I have a few questions about my Personal Accident Insurance policy (Policy No: PAI-9988776655):
+
+How do I file a claim for accidental hospitalization?
+
+When does the temporary total disability benefit start, and what documents are required?
+
+Please provide the details at your earliest convenience.
+
+Thank you,
+George Anderson",email,"{
+  ""category"": ""claim_status"",
+  ""urgency"": ""low"",
+  ""sentiment"": ""satisfied"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: PAI-9988776655"",
+    ""Inquiry about filing a claim for accidental hospitalization"",
+    ""Inquiry about temporary total disability benefit details""
+  ],
+  ""suggested_action"": ""Provide details on the claim process and temporary total disability benefit as per the policy document.""
+}",📬 Routed to: Claims Department ⏱ Urgency Level: Standard Queue,0.0001785,9873ccf0-162d-419a-b55f-3cfb6d1c0b12
+9,"Alice Smith : I have a planned procedure on June 15, 2025 under my policy (HI-123456789). Could you please share the steps to avail the cashless facility and confirm if the procedure qualifies as a day care treatment?",chat,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""neutral"",
+  ""confidence"": 0.9,
+  ""key_information"": [
+    ""Policy Number: HI-123456789"",
+    ""Planned Procedure Date: June 15, 2025"",
+    ""Inquiry about cashless facility steps"",
+    ""Inquiry about day care treatment qualification""
+  ],
+  ""suggested_action"": ""Provide steps for cashless facility and confirm day care treatment qualification under the policy.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Priority Queue,0.0001764,9d23c7df-2812-4ffe-84c4-678c6a714ea0
+10,"Dear SafeCare Team,
+
+Ive been trying to get clarity on the cashless hospitalization process for an upcoming procedure under my policy (HI-123456789), but havent received a proper response yet. The procedure is scheduled for June 15, 2025, and I need to know the exact steps and whether it qualifies as a day care procedure.
+
+This delay is causing unnecessary stress. Please treat this as urgent and respond at the earliest.
+
+Regards,
+Alice
+alice@example.com
+(555) 123-4567",email,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: HI-123456789"",
+    ""Procedure Date: June 15, 2025"",
+    ""Inquiry about cashless hospitalization process"",
+    ""Clarification on day care procedure qualification""
+  ],
+  ""suggested_action"": ""Contact Alice with detailed cashless hospitalization steps and confirm if her procedure qualifies as day care. Also, verify if her hospital is part of the network.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Escalation Team,0.000195,8ec44600-da8b-4732-b052-ec6874a65a9b
+11,"Dear SafeCare Team,
+
+I am extremely disappointed with the lack of response regarding my repeated queries about the cashless hospitalization process for my upcoming procedure under policy HI-123456789. The procedure is scheduled for June 15, 2025, and I urgently need confirmation on the process and whether it qualifies as a day care treatment.
+
+This level of delay and unresponsiveness is unacceptable, especially from a health insurance provider where timely support is critical. I expect an immediate and clear response.
+
+Please treat this matter with the seriousness it deserves.
+
+
+Alice
+alice@example.com
+(555) 123-4567",email,"{
+  ""category"": ""coverage_inquiry"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: HI-123456789"",
+    ""Procedure Date: June 15, 2025"",
+    ""Cashless Hospitalization Process Inquiry"",
+    ""Day Care Treatment Qualification""
+  ],
+  ""suggested_action"": ""Prioritize the customer's query, confirm the cashless hospitalization process, and verify if the procedure qualifies as day care treatment. Apologize for the delay and provide a clear response immediately.""
+}",📬 Routed to: Product Support Team ⏱ Urgency Level: Escalation Team,0.00019995,3709b74a-ff48-46dc-a8cf-f812d0cfc28d
+12,"Bob: Hi, this is Bob Johnson, policy number FFHI-456789123. Im really upset because my 5-year-old childs coverage isnt showing up at the hospital. This is causing me a lot of stress and unexpected expenses. I need you to fix this right now and tell me how to get reimbursed for the bills I already paid. Please escalate this immediately.",call,"{
+  ""category"": ""dependent_coverage"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""frustrated"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy number: FFHI-456789123"",
+    ""Child's age: 5 years"",
+    ""Issue: Child's coverage not showing up at the hospital""
+  ],
+  ""suggested_action"": ""Escalate the issue to the dependent coverage team to resolve the coverage discrepancy immediately.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Escalation Team,0.00018494999999999997,a3935da8-7ffa-4255-80e2-7dcfe0236f17
+13,"Subject: Urgent: Claim Denial for My Spouse  Request for Immediate Review
+
+Dear SafeCare Support Team,
+
+I am writing to express my strong dissatisfaction regarding the denial of a recent claim for my spouse, Sarah Johnson, under policy number FFHI-456789123. The claim was related to hospitalization, and I fail to understand the reason for rejection as all required documents were submitted correctly and the treatment clearly falls under the covered benefits.
+
+This denial is causing significant inconvenience and financial strain. I request a detailed explanation for the rejection along with an immediate review of the claim. Please provide guidance on any additional information or steps needed to resolve this issue promptly.
+
+I expect swift action on this matter.
+
+Regards,
+Bob Johnson
+bob.johnson@example.com
+(555) 234-7890",email,"{
+  ""category"": ""claim_denial"",
+  ""urgency"": ""high"",
+  ""sentiment"": ""angry"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: FFHI-456789123"",
+    ""Claimant Name: Sarah Johnson"",
+    ""Nature of Claim: Hospitalization"",
+    ""Issue: Claim denial despite correct submission of documents""
+  ],
+  ""suggested_action"": ""Review the claim denial and contact the customer with a detailed explanation and next steps.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Escalation Team,0.00019155,76411acb-3eff-45a3-bb9e-7ec679bee6f7
+14,"Hi, my name is George Anderson, and Im calling regarding my Personal Accident Insurance Policy  PAI-9988776655.
+
+I had submitted a request to update the nominee details about two weeks ago, but I havent received any confirmation or update since then. I just wanted to check on the status of that request.",call,"{
+  ""category"": ""policy_update"",
+  ""urgency"": ""medium"",
+  ""sentiment"": ""neutral"",
+  ""confidence"": 0.95,
+  ""key_information"": [
+    ""Policy Number: PAI-9988776655"",
+    ""Nominee Update Request: Submitted two weeks ago""
+  ],
+  ""suggested_action"": ""Check the status of the nominee update request and provide confirmation to the customer.""
+}",📬 Routed to: Customer Service ⏱ Urgency Level: Priority Queue,0.0001692,d5579476-88bf-40a7-b8c1-164256a3f889

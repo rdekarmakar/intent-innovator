@@ -1,0 +1,8 @@
+{
+  "channel": "customer_support",
+  "message_content": [
+    "Charlie Davis : I visited the hospital on April 5th for an emergency and was told my insurance was inactive. This is shocking because I’ve been paying my premiums on time every month. Now I’m being billed $2,300 out of pocket. I need this resolved ASAP — please confirm my coverage status and correct the hospital records.",
+    
+    "Hi, my name is George Anderson, and I’m calling regarding my Personal Accident Insurance Policy. I had submitted a request to update the nominee details about two weeks ago, but I haven’t received any confirmation or update since then. I just wanted to check on the status of that request."
+  ]
+}
